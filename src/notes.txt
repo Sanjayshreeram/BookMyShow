@@ -1,0 +1,5 @@
+// for carousal  -npm i react-slick
+// after this paste this also npm install slick-carousel
+//  react icons for icons //npm install react icons in cmd . copy the icon name from react icons after "react-icons/first two  letters of icon name in smaller case"
+//react slick -npm// for carousals
+//REFER KENWHELLER.GITHUB.IO/SLICK FOR carousals
