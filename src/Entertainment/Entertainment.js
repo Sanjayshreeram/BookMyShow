@@ -1,12 +1,24 @@
 import React from "react";
 import Slider from "react-slick";
+import { NextArrow,PrevArrow } from "../carousals/arrows";
 
 
 const  EntertainmentCard=(props)=> {
+
+
+
+
+
+   
     return(
         <>
-        <div className="w-full h-30 px-3 py-6">
-            <img  src={props.src} className="w-full h-full rounded-xl" alt="imagess" />
+
+            
+        <div className="w-full h-full px-6 py-6 lg:w-3/4 ">
+
+          
+
+            <img  src={props.src} className="w-full h-full rounded-xl " alt="imagess" />
 
         </div>
         </>
@@ -28,16 +40,25 @@ const EntertainmentCardSlider= ()  => {
 const settings= {
     autoPlay:false,
     infinite:true,
-    slidesToShow:4,
-    slidesToScroll:4,
+    slidesToShow:5,
+    slidesToScroll:2,
     InitialSlide:0,
     centreMode:true,
+    nextArrow:<NextArrow/>,
+    prevArrow:<PrevArrow/>
 
 
 }
 return(<>
 <Slider { ...settings }>
+
+
+
     {
+
+
+           
+            
         EntertainmentCardImage.map((image)=>(
             <EntertainmentCard src={image}/>
         ))
