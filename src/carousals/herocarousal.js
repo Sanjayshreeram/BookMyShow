@@ -36,7 +36,7 @@ const Herocarousal=()=>{
             
 
       </HeroSlider> */
-      const settingsLg= {
+      var  settingsLg= {
         dots:false,
         arrows:true,
         centreMode:true,

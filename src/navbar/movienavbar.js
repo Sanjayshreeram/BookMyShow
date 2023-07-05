@@ -1,7 +1,9 @@
+//this page is for movie navbar.
 import React from "react";
 // npm install react icons in cmd . copy the icon name from react icons after "react-icons/first two  letters of icon name in smaller case"
 import {BsChevronCompactRight,BsSearch,BsMenuUp,BsChevronLeft,BsShare} from "react-icons/bs";
-//simpy hidden will hide everything md medium lg:large
+//simply hidden will hide everything md medium lg:large
+
 
 
 const Navsm=()=>{
@@ -75,7 +77,7 @@ const Navlg=()=>{
 
             </div>
             
-            <div className="hidden lg:hidden md:block h-12 mb-2">{ 
+            <div className="hidden lg:hidden md:block h-12 ">{ 
             /*tab screen  hidden for larger screen also simple hidden for for everything and md:flex*/
                 <Navsm/>
             }

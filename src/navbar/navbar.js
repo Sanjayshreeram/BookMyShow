@@ -1,3 +1,4 @@
+//this page is for navbar in home page
 import React from "react";
 // npm install react icons in cmd . copy the icon name from react icons after "react-icons/first two  letters of icon name in smaller case"
 import {BsChevronCompactRight,BsSearch,BsMenuUp} from "react-icons/bs";
